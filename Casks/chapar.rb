@@ -1,15 +1,18 @@
 cask "chapar" do
-  arch arm: "arm64", intel: "amd64"
-
   version "0.4.7"
 
-  sha256 arm:   "c889bce7f808ae84587d1b006d3121cbb60250130b05094d946e9249b626fd1d",
-         intel: "c2926f74998c2fc5f2b31e44b2ae6309b75f2228990bb65cc665aaa1e6cac4dc"
+  on_arm do
+    url "https://github.com/chapar-rest/chapar/releases/download/v#{version}/chapar-macos-v#{version}-arm64.dmg"
+    sha256 "c889bce7f808ae84587d1b006d3121cbb60250130b05094d946e9249b626fd1d"
+  end
 
-  url "https://github.com/chapar-rest/chapar/releases/download/v#{version}/chapar-macos-v#{version}-#{arch}.dmg"
+  on_intel do
+    url "https://github.com/chapar-rest/chapar/releases/download/v#{version}/chapar-macos-v#{version}-amd64.dmg"
+    sha256 "c2926f74998c2fc5f2b31e44b2ae6309b75f2228990bb65cc665aaa1e6cac4dc"
+  end
 
   name "Chapar"
-  desc "Native API client"
+  desc "Native API client and Postman alternative"
   homepage "https://github.com/chapar-rest/chapar"
 
   app "Chapar.app"
