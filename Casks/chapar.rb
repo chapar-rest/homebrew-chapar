@@ -1,14 +1,14 @@
 cask "chapar" do
-  version "0.4.9"
+  version "0.5.0"
 
   on_arm do
     url "https://github.com/chapar-rest/chapar/releases/download/v#{version}/chapar-macos-v#{version}-arm64.dmg"
-    sha256 "8b2b76628f1ede904781c87a0e1cc871147562475dc83f1a7d487d8cdaf0c00e"
+    sha256 "4ad430b35de7508e187182fc621b11141e585c5795810634f427ec16cfbc1b0e"
   end
 
   on_intel do
     url "https://github.com/chapar-rest/chapar/releases/download/v#{version}/chapar-macos-v#{version}-amd64.dmg"
-    sha256 "6da4c023a358cd2dfa910f3039202e2c618c669dc20db4fc7b0a9e01affdb99c"
+    sha256 "66a266316bed3d17d155ceb7cf1aec3706052e17484bb4b6dc7730b1a606d75f"
   end
 
   name "Chapar"
