@@ -3,28 +3,28 @@
 class ChaparCli < Formula
   desc "Run Chapar API test cases from the command-line"
   homepage "https://github.com/chapar-rest/chapar"
-  version "0.8.0"
+  version "0.9.0"
   license "BSD-3-Clause"
 
   on_macos do
     on_arm do
-      url "https://github.com/chapar-rest/chapar/releases/download/v0.8.0/chapar-cli-macos-v0.8.0-arm64.tar.gz"
-      sha256 "0fa33b61900e0db5ad95c7cb0c3fd2e139ad23e57329f89411ce8885e15b6100"
+      url "https://github.com/chapar-rest/chapar/releases/download/v0.9.0/chapar-cli-macos-v0.9.0-arm64.tar.gz"
+      sha256 "764e779ff5760e9620bd429e2fbe29ceeb6d8342af1e61da2b9f50edb869b579"
     end
     on_intel do
-      url "https://github.com/chapar-rest/chapar/releases/download/v0.8.0/chapar-cli-macos-v0.8.0-amd64.tar.gz"
-      sha256 "935316ede9ab4e1ee784388a9a607841fc660dd061df9ecfd7371fc2e61b83fe"
+      url "https://github.com/chapar-rest/chapar/releases/download/v0.9.0/chapar-cli-macos-v0.9.0-amd64.tar.gz"
+      sha256 "bafb7f92373cae07fcc75ce06cd577f38d05edb8132c03a5386fe50ea406ae43"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/chapar-rest/chapar/releases/download/v0.8.0/chapar-cli-linux-v0.8.0-arm64.tar.gz"
-      sha256 "3c6b6ba6ed79540aabc12c86b811d79dbfb09b3e0c6dc66f4732cc1db10ad812"
+      url "https://github.com/chapar-rest/chapar/releases/download/v0.9.0/chapar-cli-linux-v0.9.0-arm64.tar.gz"
+      sha256 "c703bd6dbe284b1952632bbedd4591eb31211b9340266e283c18381ada871f44"
     end
     on_intel do
-      url "https://github.com/chapar-rest/chapar/releases/download/v0.8.0/chapar-cli-linux-v0.8.0-amd64.tar.gz"
-      sha256 "06c9484f8d1a994712f8c37144b49d70682f5c9b470c7aa96d97f5ee6b6838ff"
+      url "https://github.com/chapar-rest/chapar/releases/download/v0.9.0/chapar-cli-linux-v0.9.0-amd64.tar.gz"
+      sha256 "921290b3469f8f70b742a50d3603122ea7aa0a93743197ecedbc65761650283d"
     end
   end
 
